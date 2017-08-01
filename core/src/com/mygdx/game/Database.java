@@ -21,6 +21,5 @@ public abstract class Database {
         database.execSQL(SQL_CREATE_ENTRIES);
         createshit();
         createinsertsnshit();
-    }
-*/
+    }*/
 }
