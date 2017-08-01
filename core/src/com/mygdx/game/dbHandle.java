@@ -6,7 +6,10 @@ package com.mygdx.game;
 import java.util.*;
 import com.badlogic.gdx.Gdx;
 import android.database.sqlite.*;
-import android.content.Context;
+import android.content.*;
+
+import jdk.nashorn.internal.runtime.Context;
+
 public class dbHandle extends data{
 
     private static dbHandle sInstance;
@@ -17,7 +20,10 @@ public class dbHandle extends data{
     private static final String KEY_ID="id";
     private static final String KEY_NAME="name";
     private static final String KEY_MODE="mode";
-    //dbHandle = openOrCreateDatabase("Mydatabase",null,version);
+    public dbHandle(Context context){
+
+    }
+   //dbHandle = openOrCreateDatabase("Mydatabase",null,version);
 
 
 }
