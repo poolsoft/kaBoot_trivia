@@ -1,5 +1,7 @@
 package com.mygdx.game;
 
+import jdk.nashorn.internal.runtime.Context;
+
 /**
  * Created by jackn on 7/31/2017.
  */
@@ -9,7 +11,7 @@ public class data {
     private String name;
     private String mode;
     data context = this;
-    public data()
+    public data(Context context, String db_name, Database instance, int version)
     {
 
     }

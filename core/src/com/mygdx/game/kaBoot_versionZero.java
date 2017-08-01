@@ -6,7 +6,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Screen;
 public class kaBoot_versionZero extends Game {
 	private Database database;
-
+	//public abstact void execute(String sql);
 	public kaBoot_versionZero(final Database MyDatabase) {
 		setDatabase(MyDatabase);
 	}

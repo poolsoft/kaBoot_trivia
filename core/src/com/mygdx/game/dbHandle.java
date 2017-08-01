@@ -8,6 +8,7 @@ import com.badlogic.gdx.Gdx;
 import android.database.sqlite.*;
 import android.content.*;
 
+
 import jdk.nashorn.internal.runtime.Context;
 
 public class dbHandle extends data{
@@ -21,9 +22,11 @@ public class dbHandle extends data{
     private static final String KEY_NAME="name";
     private static final String KEY_MODE="mode";
     public dbHandle(Context context){
-
+    super(context,db_name,instance,version);
     }
-   //dbHandle = openOrCreateDatabase("Mydatabase",null,version);
+    @Override
+    public void onCreate(){}
+
 
 
 }
