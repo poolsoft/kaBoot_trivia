@@ -10,9 +10,8 @@ public class kaBoot_versionZero extends Game {
 	public kaBoot_versionZero(final Database MyDatabase) {
 		setDatabase(MyDatabase);
 	}
-
 	@Override
-	public void create() {
+	public void onCreate() {
 
 	}
 	@Override
